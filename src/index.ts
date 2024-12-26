@@ -12,6 +12,7 @@ config();
             IntentsBitField.Flags.MessageContent,
             IntentsBitField.Flags.GuildMembers,
             IntentsBitField.Flags.GuildMessageReactions,
+            IntentsBitField.Flags.GuildVoiceStates,
         ],
         partials: [Partials.Message],
         presence: { status: PresenceUpdateStatus.DoNotDisturb },
